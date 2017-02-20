@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1 Search results
+  a(href="/") Back
+  ul
+    for item in results
+      li= item.title
+    
